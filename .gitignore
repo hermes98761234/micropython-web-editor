@@ -1,0 +1,11 @@
+node_modules
+dist
+*.local
+*.log
+*.tsbuildinfo
+.DS_Store
+.vscode/*
+.idea
+.claude/settings.local.json
+src/**/*.js
+/vite.config.js

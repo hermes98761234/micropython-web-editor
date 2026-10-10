@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MicroPython Web Editor: edit, run and upload MicroPython over Web Serial</title>
+    <meta name="description" content="MicroPython editor in your browser: CodeMirror code editor, raw REPL with paste mode over Web Serial, run or upload files, REPL terminal and device file list. Includes a simulated board demo mode." />
+    <meta name="keywords" content="MicroPython editor, Web Serial, raw REPL, ESP32 MicroPython, Raspberry Pi Pico MicroPython, upload main.py, REPL terminal, browser IDE" />
+    <meta name="author" content="Volodymyr Kopytsia" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://hermes98761234.github.io/micropython-web-editor/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MicroPython Web Editor" />
+    <meta property="og:url" content="https://hermes98761234.github.io/micropython-web-editor/" />
+    <meta property="og:title" content="MicroPython Web Editor: edit, run and upload MicroPython over Web Serial" />
+    <meta property="og:description" content="MicroPython editor in your browser: CodeMirror code editor, raw REPL with paste mode over Web Serial, run or upload files, REPL terminal and device file list. Includes a simulated board demo mode." />
+    <meta property="og:image" content="https://hermes98761234.github.io/micropython-web-editor/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="MicroPython Web Editor" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MicroPython Web Editor: edit, run and upload MicroPython over Web Serial" />
+    <meta name="twitter:description" content="MicroPython editor in your browser: CodeMirror code editor, raw REPL with paste mode over Web Serial, run or upload files, REPL terminal and device file list. Includes a simulated board demo mode." />
+    <meta name="twitter:image" content="https://hermes98761234.github.io/micropython-web-editor/og-image.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "MicroPython Web Editor",
+        "url": "https://hermes98761234.github.io/micropython-web-editor/",
+        "description": "MicroPython editor in your browser: CodeMirror code editor, raw REPL with paste mode over Web Serial, run or upload files, REPL terminal and device file list. Includes a simulated board demo mode.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "inLanguage": ["en", "uk"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Volodymyr Kopytsia" }
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>This tool needs JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
